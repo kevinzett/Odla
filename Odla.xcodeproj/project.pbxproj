@@ -15,6 +15,10 @@
 		A9B2BD2227A2CBD5008A5A1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B2BD2127A2CBD5008A5A1E /* Assets.xcassets */; };
 		A9B2BD2527A2CBD5008A5A1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B2BD2327A2CBD5008A5A1E /* LaunchScreen.storyboard */; };
 		A9B2BD2D27A2CC23008A5A1E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A9B2BD2C27A2CC23008A5A1E /* .gitignore */; };
+		A9B2BD3027A2D43E008A5A1E /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2BD2F27A2D43E008A5A1E /* MainScreenViewController.swift */; };
+		A9B2BD3227A2E93A008A5A1E /* OdlingsListaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2BD3127A2E93A008A5A1E /* OdlingsListaViewController.swift */; };
+		A9B2BD3427A34D50008A5A1E /* PlaneraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2BD3327A34D4F008A5A1E /* PlaneraViewController.swift */; };
+		A9B2BD3627A3DF4C008A5A1E /* ShowInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2BD3527A3DF4C008A5A1E /* ShowInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		A9B2BD2427A2CBD5008A5A1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9B2BD2627A2CBD5008A5A1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9B2BD2C27A2CC23008A5A1E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A9B2BD2F27A2D43E008A5A1E /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		A9B2BD3127A2E93A008A5A1E /* OdlingsListaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdlingsListaViewController.swift; sourceTree = "<group>"; };
+		A9B2BD3327A34D4F008A5A1E /* PlaneraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneraViewController.swift; sourceTree = "<group>"; };
+		A9B2BD3527A3DF4C008A5A1E /* ShowInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +68,10 @@
 		A9B2BD1427A2CBC7008A5A1E /* Odla */ = {
 			isa = PBXGroup;
 			children = (
+				A9B2BD2E27A2D40C008A5A1E /* ViewControllers */,
 				A9B2BD1527A2CBC7008A5A1E /* AppDelegate.swift */,
 				A9B2BD2C27A2CC23008A5A1E /* .gitignore */,
 				A9B2BD1727A2CBC7008A5A1E /* SceneDelegate.swift */,
-				A9B2BD1927A2CBC7008A5A1E /* ViewController.swift */,
 				A9B2BD1B27A2CBC7008A5A1E /* Main.storyboard */,
 				A9B2BD2127A2CBD5008A5A1E /* Assets.xcassets */,
 				A9B2BD2327A2CBD5008A5A1E /* LaunchScreen.storyboard */,
@@ -71,6 +79,18 @@
 				A9B2BD1E27A2CBC7008A5A1E /* Odla.xcdatamodeld */,
 			);
 			path = Odla;
+			sourceTree = "<group>";
+		};
+		A9B2BD2E27A2D40C008A5A1E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A9B2BD1927A2CBC7008A5A1E /* ViewController.swift */,
+				A9B2BD2F27A2D43E008A5A1E /* MainScreenViewController.swift */,
+				A9B2BD3127A2E93A008A5A1E /* OdlingsListaViewController.swift */,
+				A9B2BD3327A34D4F008A5A1E /* PlaneraViewController.swift */,
+				A9B2BD3527A3DF4C008A5A1E /* ShowInfoViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +165,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9B2BD3027A2D43E008A5A1E /* MainScreenViewController.swift in Sources */,
 				A9B2BD1A27A2CBC7008A5A1E /* ViewController.swift in Sources */,
 				A9B2BD2027A2CBC7008A5A1E /* Odla.xcdatamodeld in Sources */,
+				A9B2BD3627A3DF4C008A5A1E /* ShowInfoViewController.swift in Sources */,
 				A9B2BD1627A2CBC7008A5A1E /* AppDelegate.swift in Sources */,
+				A9B2BD3427A34D50008A5A1E /* PlaneraViewController.swift in Sources */,
+				A9B2BD3227A2E93A008A5A1E /* OdlingsListaViewController.swift in Sources */,
 				A9B2BD1827A2CBC7008A5A1E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

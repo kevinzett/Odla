@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A92AC09027AB37B200D3BE0A /* Odlalist+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92AC08E27AB37B200D3BE0A /* Odlalist+CoreDataClass.swift */; };
+		A92AC09127AB37B200D3BE0A /* Odlalist+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92AC08F27AB37B200D3BE0A /* Odlalist+CoreDataProperties.swift */; };
+		A92AC09327AB39A800D3BE0A /* GradiantButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92AC09227AB39A800D3BE0A /* GradiantButton.swift */; };
+		A9958A0C27AB3E4B003E9788 /* Odla.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = A9B2BD1E27A2CBC7008A5A1E /* Odla.xcdatamodeld */; };
+		A9958A0F27AC789D003E9788 /* cellForList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9958A0D27AC789D003E9788 /* cellForList.swift */; };
+		A9958A1027AC789D003E9788 /* cellForList.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9958A0E27AC789D003E9788 /* cellForList.xib */; };
+		A9958A1227B132AB003E9788 /* structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9958A1127B132AB003E9788 /* structs.swift */; };
+		A9958A1627B1BB5C003E9788 /* cellForAddList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9958A1427B1BB5C003E9788 /* cellForAddList.swift */; };
+		A9958A1727B1BB5C003E9788 /* cellForAddList.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9958A1527B1BB5C003E9788 /* cellForAddList.xib */; };
 		A9B2BD1627A2CBC7008A5A1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2BD1527A2CBC7008A5A1E /* AppDelegate.swift */; };
 		A9B2BD1827A2CBC7008A5A1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2BD1727A2CBC7008A5A1E /* SceneDelegate.swift */; };
 		A9B2BD1A27A2CBC7008A5A1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2BD1927A2CBC7008A5A1E /* ViewController.swift */; };
 		A9B2BD1D27A2CBC7008A5A1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B2BD1B27A2CBC7008A5A1E /* Main.storyboard */; };
-		A9B2BD2027A2CBC7008A5A1E /* Odla.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9B2BD1E27A2CBC7008A5A1E /* Odla.xcdatamodeld */; };
 		A9B2BD2227A2CBD5008A5A1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B2BD2127A2CBD5008A5A1E /* Assets.xcassets */; };
 		A9B2BD2527A2CBD5008A5A1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B2BD2327A2CBD5008A5A1E /* LaunchScreen.storyboard */; };
 		A9B2BD2D27A2CC23008A5A1E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A9B2BD2C27A2CC23008A5A1E /* .gitignore */; };
@@ -22,6 +30,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A92AC08E27AB37B200D3BE0A /* Odlalist+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Odlalist+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A92AC08F27AB37B200D3BE0A /* Odlalist+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Odlalist+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A92AC09227AB39A800D3BE0A /* GradiantButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradiantButton.swift; sourceTree = "<group>"; };
+		A9958A0D27AC789D003E9788 /* cellForList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellForList.swift; sourceTree = "<group>"; };
+		A9958A0E27AC789D003E9788 /* cellForList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = cellForList.xib; sourceTree = "<group>"; };
+		A9958A1127B132AB003E9788 /* structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = structs.swift; sourceTree = "<group>"; };
+		A9958A1427B1BB5C003E9788 /* cellForAddList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellForAddList.swift; sourceTree = "<group>"; };
+		A9958A1527B1BB5C003E9788 /* cellForAddList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = cellForAddList.xib; sourceTree = "<group>"; };
 		A9B2BD1227A2CBC7008A5A1E /* Odla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Odla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B2BD1527A2CBC7008A5A1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9B2BD1727A2CBC7008A5A1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,9 +65,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9958A1327B1BB1B003E9788 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A9958A0D27AC789D003E9788 /* cellForList.swift */,
+				A9958A0E27AC789D003E9788 /* cellForList.xib */,
+				A9958A1427B1BB5C003E9788 /* cellForAddList.swift */,
+				A9958A1527B1BB5C003E9788 /* cellForAddList.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		A9B2BD0927A2CBC6008A5A1E = {
 			isa = PBXGroup;
 			children = (
+				A92AC08E27AB37B200D3BE0A /* Odlalist+CoreDataClass.swift */,
+				A92AC08F27AB37B200D3BE0A /* Odlalist+CoreDataProperties.swift */,
 				A9B2BD1427A2CBC7008A5A1E /* Odla */,
 				A9B2BD1327A2CBC7008A5A1E /* Products */,
 			);
@@ -70,6 +99,7 @@
 			children = (
 				A9B2BD2E27A2D40C008A5A1E /* ViewControllers */,
 				A9B2BD1527A2CBC7008A5A1E /* AppDelegate.swift */,
+				A9958A1127B132AB003E9788 /* structs.swift */,
 				A9B2BD2C27A2CC23008A5A1E /* .gitignore */,
 				A9B2BD1727A2CBC7008A5A1E /* SceneDelegate.swift */,
 				A9B2BD1B27A2CBC7008A5A1E /* Main.storyboard */,
@@ -77,6 +107,7 @@
 				A9B2BD2327A2CBD5008A5A1E /* LaunchScreen.storyboard */,
 				A9B2BD2627A2CBD5008A5A1E /* Info.plist */,
 				A9B2BD1E27A2CBC7008A5A1E /* Odla.xcdatamodeld */,
+				A92AC09227AB39A800D3BE0A /* GradiantButton.swift */,
 			);
 			path = Odla;
 			sourceTree = "<group>";
@@ -89,6 +120,7 @@
 				A9B2BD3127A2E93A008A5A1E /* OdlingsListaViewController.swift */,
 				A9B2BD3327A34D4F008A5A1E /* PlaneraViewController.swift */,
 				A9B2BD3527A3DF4C008A5A1E /* ShowInfoViewController.swift */,
+				A9958A1327B1BB1B003E9788 /* Cells */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -151,8 +183,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9958A0C27AB3E4B003E9788 /* Odla.xcdatamodeld in Resources */,
+				A9958A1027AC789D003E9788 /* cellForList.xib in Resources */,
 				A9B2BD2D27A2CC23008A5A1E /* .gitignore in Resources */,
 				A9B2BD2527A2CBD5008A5A1E /* LaunchScreen.storyboard in Resources */,
+				A9958A1727B1BB5C003E9788 /* cellForAddList.xib in Resources */,
 				A9B2BD2227A2CBD5008A5A1E /* Assets.xcassets in Resources */,
 				A9B2BD1D27A2CBC7008A5A1E /* Main.storyboard in Resources */,
 			);
@@ -167,12 +202,17 @@
 			files = (
 				A9B2BD3027A2D43E008A5A1E /* MainScreenViewController.swift in Sources */,
 				A9B2BD1A27A2CBC7008A5A1E /* ViewController.swift in Sources */,
-				A9B2BD2027A2CBC7008A5A1E /* Odla.xcdatamodeld in Sources */,
+				A92AC09327AB39A800D3BE0A /* GradiantButton.swift in Sources */,
 				A9B2BD3627A3DF4C008A5A1E /* ShowInfoViewController.swift in Sources */,
 				A9B2BD1627A2CBC7008A5A1E /* AppDelegate.swift in Sources */,
 				A9B2BD3427A34D50008A5A1E /* PlaneraViewController.swift in Sources */,
+				A9958A1627B1BB5C003E9788 /* cellForAddList.swift in Sources */,
+				A92AC09027AB37B200D3BE0A /* Odlalist+CoreDataClass.swift in Sources */,
+				A92AC09127AB37B200D3BE0A /* Odlalist+CoreDataProperties.swift in Sources */,
+				A9958A1227B132AB003E9788 /* structs.swift in Sources */,
 				A9B2BD3227A2E93A008A5A1E /* OdlingsListaViewController.swift in Sources */,
 				A9B2BD1827A2CBC7008A5A1E /* SceneDelegate.swift in Sources */,
+				A9958A0F27AC789D003E9788 /* cellForList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

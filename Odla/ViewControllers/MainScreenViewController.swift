@@ -16,7 +16,6 @@ class MainScreenViewController: UIViewController, UITableViewDelegate, UITableVi
 
     @IBOutlet weak var tableView: UITableView!
     
-    var textTry = ["hej", "Hejdå", "Hej Igen"]
     var tableViewCoreData = [Odlalist]()
     var rowSelected : Int?
     

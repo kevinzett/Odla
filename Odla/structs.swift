@@ -23,3 +23,7 @@ struct infoForText {
         
     ]
 }
+
+struct odlingsAlt {
+    
+}

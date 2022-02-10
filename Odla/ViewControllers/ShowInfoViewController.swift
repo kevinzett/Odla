@@ -31,6 +31,7 @@ class ShowInfoViewController: UIViewController {
         setOptionsAndStyle()
         nameText.text = textForName
         checkInfoText()
+        
     }
     
     func checkInfoText() {

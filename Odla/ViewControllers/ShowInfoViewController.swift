@@ -38,23 +38,23 @@ class ShowInfoViewController: UIViewController {
         switch textForName {
         case "Morot":
             textForInfo = informationForText.infoText[0]
-            stringTextForImage = "morotter"
+            stringTextForImage = "morotterr"
             
         case "Potatis":
             textForInfo = informationForText.infoText[1]
-            stringTextForImage = "potatis"
+            stringTextForImage = "potatiss"
 
         case "Tomat":
             textForInfo = informationForText.infoText[2]
-            stringTextForImage = "tomat"
+            stringTextForImage = "tomatt"
 
         case "Gurka":
             textForInfo = informationForText.infoText[3]
-            stringTextForImage = "gurka"
+            stringTextForImage = "gurkaa"
 
         case "Rädisa":
             textForInfo = informationForText.infoText[4]
-            stringTextForImage = "rädisa"
+            stringTextForImage = "rädisaa"
             
         default:
             textForName = "Greens"
@@ -89,7 +89,6 @@ class ShowInfoViewController: UIViewController {
         addButton.layer.shadowOpacity = 0.6
         addButton.layer.shadowRadius = 5.0
         addButton.layer.borderColor = UIColor.clear.cgColor
-//        addButton.layer.backgroundColor = UIColor.systemBackground.cgColor
         
     }
 

@@ -21,18 +21,23 @@
                         <rect key="frame" x="20" y="11" width="476" height="84"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pfa-3L-m38">
-                                <rect key="frame" x="27" y="14" width="349" height="57"/>
+                                <rect key="frame" x="27" y="14" width="41.5" height="57"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" name="greenfirstviewtwo"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="potatoimage" translatesAutoresizingMaskIntoConstraints="NO" id="9M1-Bd-Aji">
+                                <rect key="frame" x="408" y="10" width="60" height="61"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="pfa-3L-m38" firstAttribute="leading" secondItem="ucz-oD-4uc" secondAttribute="leading" constant="27" id="2N4-fA-TZw"/>
+                            <constraint firstAttribute="trailing" secondItem="9M1-Bd-Aji" secondAttribute="trailing" constant="8" id="8ub-jb-9f9"/>
+                            <constraint firstAttribute="bottom" secondItem="9M1-Bd-Aji" secondAttribute="bottom" constant="13" id="OBE-eJ-Qsi"/>
                             <constraint firstItem="pfa-3L-m38" firstAttribute="top" secondItem="ucz-oD-4uc" secondAttribute="top" constant="14" id="QcP-ef-3yW"/>
                             <constraint firstAttribute="bottom" secondItem="pfa-3L-m38" secondAttribute="bottom" constant="13" id="XrA-JV-CKW"/>
-                            <constraint firstAttribute="trailing" secondItem="pfa-3L-m38" secondAttribute="trailing" constant="100" id="zPt-Th-hSh"/>
+                            <constraint firstItem="9M1-Bd-Aji" firstAttribute="top" secondItem="ucz-oD-4uc" secondAttribute="top" constant="10" id="jvL-AO-yX2"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -45,6 +50,7 @@
             </tableViewCellContentView>
             <color key="backgroundColor" name="firstviewcolorbutton"/>
             <connections>
+                <outlet property="imageForCell" destination="9M1-Bd-Aji" id="wmc-1O-jnV"/>
                 <outlet property="labelForCell" destination="pfa-3L-m38" id="obY-dh-Ptu"/>
                 <outlet property="viewForCell" destination="ucz-oD-4uc" id="Lnq-av-H8p"/>
             </connections>
@@ -52,6 +58,7 @@
         </tableViewCell>
     </objects>
     <resources>
+        <image name="potatoimage" width="60" height="60"/>
         <namedColor name="firstviewcolorbutton">
             <color red="0.96862745098039216" green="0.94901960784313721" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

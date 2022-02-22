@@ -7,12 +7,10 @@
 
 import UIKit
 
-class OdlingsListaViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchControllerDelegate, UISearchBarDelegate, UISearchResultsUpdating {
+class OdlingsListaViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UISearchControllerDelegate, UISearchResultsUpdating {
    
-    
-    
     @IBOutlet weak var tableView: UITableView!
-    var odlingsAlt = ["Morot", "Potatis", "Tomat", "Gurka", "Rädisa", "Morot", "Potatis", "Tomat", "Gurka", "Rädisa", "Morot", "Potatis", "Tomat", "Gurka", "Rädisa", "Morot", "Potatis", "Tomat", "Gurka", "Rädisa"]
+    var odlingsAlt = ["Morot", "Potatis", "Tomat", "Gurka", "Rädisa"]
     
     var filteredOdlingsAlt = [String]()
     
@@ -60,7 +58,7 @@ class OdlingsListaViewController: UIViewController, UITableViewDelegate, UITable
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellforaddlist", for: indexPath) as! cellForAddList
         cell.labelForCell.text = filteredOdlingsAlt[indexPath.row]
-        
+        cell.imageForCell.image = UIImage(named: filteredOdlingsAlt[indexPath.row])
         return cell
     }
 
@@ -74,5 +72,6 @@ class OdlingsListaViewController: UIViewController, UITableViewDelegate, UITable
         let vc = storyboard?.instantiateViewController(withIdentifier: "showinfovc") as! ShowInfoViewController
         vc.textForName = filteredOdlingsAlt[indexPath.row]
         self.navigationController?.pushViewController(vc, animated: true)
+        tableView.deselectRow(at: indexPath, animated: false)
     }
 }

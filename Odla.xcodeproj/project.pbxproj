@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27BDAEC34C6D4E5EBB8296BB /* Pods_Odla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46FB22C3FCEC190FE0DC0E80 /* Pods_Odla.framework */; };
 		A92AC09027AB37B200D3BE0A /* Odlalist+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92AC08E27AB37B200D3BE0A /* Odlalist+CoreDataClass.swift */; };
 		A92AC09127AB37B200D3BE0A /* Odlalist+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92AC08F27AB37B200D3BE0A /* Odlalist+CoreDataProperties.swift */; };
 		A92AC09327AB39A800D3BE0A /* GradiantButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92AC09227AB39A800D3BE0A /* GradiantButton.swift */; };
@@ -16,6 +17,8 @@
 		A9958A1227B132AB003E9788 /* structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9958A1127B132AB003E9788 /* structs.swift */; };
 		A9958A1627B1BB5C003E9788 /* cellForAddList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9958A1427B1BB5C003E9788 /* cellForAddList.swift */; };
 		A9958A1727B1BB5C003E9788 /* cellForAddList.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9958A1527B1BB5C003E9788 /* cellForAddList.xib */; };
+		A9958A1C27B6598D003E9788 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9958A1A27B6598D003E9788 /* WeatherTableViewCell.swift */; };
+		A9958A1D27B6598D003E9788 /* WeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9958A1B27B6598D003E9788 /* WeatherTableViewCell.xib */; };
 		A9B2BD1627A2CBC7008A5A1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2BD1527A2CBC7008A5A1E /* AppDelegate.swift */; };
 		A9B2BD1827A2CBC7008A5A1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2BD1727A2CBC7008A5A1E /* SceneDelegate.swift */; };
 		A9B2BD1A27A2CBC7008A5A1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2BD1927A2CBC7008A5A1E /* ViewController.swift */; };
@@ -25,11 +28,13 @@
 		A9B2BD2D27A2CC23008A5A1E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A9B2BD2C27A2CC23008A5A1E /* .gitignore */; };
 		A9B2BD3027A2D43E008A5A1E /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2BD2F27A2D43E008A5A1E /* MainScreenViewController.swift */; };
 		A9B2BD3227A2E93A008A5A1E /* OdlingsListaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2BD3127A2E93A008A5A1E /* OdlingsListaViewController.swift */; };
-		A9B2BD3427A34D50008A5A1E /* PlaneraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2BD3327A34D4F008A5A1E /* PlaneraViewController.swift */; };
 		A9B2BD3627A3DF4C008A5A1E /* ShowInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B2BD3527A3DF4C008A5A1E /* ShowInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A570BB794F4D8C7CACC27AE /* Pods-Odla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Odla.release.xcconfig"; path = "Target Support Files/Pods-Odla/Pods-Odla.release.xcconfig"; sourceTree = "<group>"; };
+		46FB22C3FCEC190FE0DC0E80 /* Pods_Odla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Odla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C8CE62EFFDC320F295038D6 /* Pods-Odla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Odla.debug.xcconfig"; path = "Target Support Files/Pods-Odla/Pods-Odla.debug.xcconfig"; sourceTree = "<group>"; };
 		A92AC08E27AB37B200D3BE0A /* Odlalist+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Odlalist+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A92AC08F27AB37B200D3BE0A /* Odlalist+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Odlalist+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A92AC09227AB39A800D3BE0A /* GradiantButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradiantButton.swift; sourceTree = "<group>"; };
@@ -38,6 +43,8 @@
 		A9958A1127B132AB003E9788 /* structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = structs.swift; sourceTree = "<group>"; };
 		A9958A1427B1BB5C003E9788 /* cellForAddList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellForAddList.swift; sourceTree = "<group>"; };
 		A9958A1527B1BB5C003E9788 /* cellForAddList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = cellForAddList.xib; sourceTree = "<group>"; };
+		A9958A1A27B6598D003E9788 /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		A9958A1B27B6598D003E9788 /* WeatherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherTableViewCell.xib; sourceTree = "<group>"; };
 		A9B2BD1227A2CBC7008A5A1E /* Odla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Odla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B2BD1527A2CBC7008A5A1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9B2BD1727A2CBC7008A5A1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,7 +57,6 @@
 		A9B2BD2C27A2CC23008A5A1E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		A9B2BD2F27A2D43E008A5A1E /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		A9B2BD3127A2E93A008A5A1E /* OdlingsListaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OdlingsListaViewController.swift; sourceTree = "<group>"; };
-		A9B2BD3327A34D4F008A5A1E /* PlaneraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneraViewController.swift; sourceTree = "<group>"; };
 		A9B2BD3527A3DF4C008A5A1E /* ShowInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,12 +65,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27BDAEC34C6D4E5EBB8296BB /* Pods_Odla.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A45EC9D970C4F923192D795 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46FB22C3FCEC190FE0DC0E80 /* Pods_Odla.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5789D35CFAED657B22B85D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C8CE62EFFDC320F295038D6 /* Pods-Odla.debug.xcconfig */,
+				2A570BB794F4D8C7CACC27AE /* Pods-Odla.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A9958A1327B1BB1B003E9788 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +96,8 @@
 				A9958A0E27AC789D003E9788 /* cellForList.xib */,
 				A9958A1427B1BB5C003E9788 /* cellForAddList.swift */,
 				A9958A1527B1BB5C003E9788 /* cellForAddList.xib */,
+				A9958A1A27B6598D003E9788 /* WeatherTableViewCell.swift */,
+				A9958A1B27B6598D003E9788 /* WeatherTableViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -83,6 +109,8 @@
 				A92AC08F27AB37B200D3BE0A /* Odlalist+CoreDataProperties.swift */,
 				A9B2BD1427A2CBC7008A5A1E /* Odla */,
 				A9B2BD1327A2CBC7008A5A1E /* Products */,
+				A5789D35CFAED657B22B85D0 /* Pods */,
+				4A45EC9D970C4F923192D795 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,7 +146,6 @@
 				A9B2BD1927A2CBC7008A5A1E /* ViewController.swift */,
 				A9B2BD2F27A2D43E008A5A1E /* MainScreenViewController.swift */,
 				A9B2BD3127A2E93A008A5A1E /* OdlingsListaViewController.swift */,
-				A9B2BD3327A34D4F008A5A1E /* PlaneraViewController.swift */,
 				A9B2BD3527A3DF4C008A5A1E /* ShowInfoViewController.swift */,
 				A9958A1327B1BB1B003E9788 /* Cells */,
 			);
@@ -132,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9B2BD2927A2CBD5008A5A1E /* Build configuration list for PBXNativeTarget "Odla" */;
 			buildPhases = (
+				61BB6524CCFD91FD6F80F2BD /* [CP] Check Pods Manifest.lock */,
 				A9B2BD0E27A2CBC6008A5A1E /* Sources */,
 				A9B2BD0F27A2CBC6008A5A1E /* Frameworks */,
 				A9B2BD1027A2CBC6008A5A1E /* Resources */,
+				47A8E85B71FF1AC5F5785E4E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -187,6 +216,7 @@
 				A9958A1027AC789D003E9788 /* cellForList.xib in Resources */,
 				A9B2BD2D27A2CC23008A5A1E /* .gitignore in Resources */,
 				A9B2BD2527A2CBD5008A5A1E /* LaunchScreen.storyboard in Resources */,
+				A9958A1D27B6598D003E9788 /* WeatherTableViewCell.xib in Resources */,
 				A9958A1727B1BB5C003E9788 /* cellForAddList.xib in Resources */,
 				A9B2BD2227A2CBD5008A5A1E /* Assets.xcassets in Resources */,
 				A9B2BD1D27A2CBC7008A5A1E /* Main.storyboard in Resources */,
@@ -195,6 +225,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47A8E85B71FF1AC5F5785E4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Odla/Pods-Odla-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Odla/Pods-Odla-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Odla/Pods-Odla-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61BB6524CCFD91FD6F80F2BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Odla-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A9B2BD0E27A2CBC6008A5A1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -202,10 +274,10 @@
 			files = (
 				A9B2BD3027A2D43E008A5A1E /* MainScreenViewController.swift in Sources */,
 				A9B2BD1A27A2CBC7008A5A1E /* ViewController.swift in Sources */,
+				A9958A1C27B6598D003E9788 /* WeatherTableViewCell.swift in Sources */,
 				A92AC09327AB39A800D3BE0A /* GradiantButton.swift in Sources */,
 				A9B2BD3627A3DF4C008A5A1E /* ShowInfoViewController.swift in Sources */,
 				A9B2BD1627A2CBC7008A5A1E /* AppDelegate.swift in Sources */,
-				A9B2BD3427A34D50008A5A1E /* PlaneraViewController.swift in Sources */,
 				A9958A1627B1BB5C003E9788 /* cellForAddList.swift in Sources */,
 				A92AC09027AB37B200D3BE0A /* Odlalist+CoreDataClass.swift in Sources */,
 				A92AC09127AB37B200D3BE0A /* Odlalist+CoreDataProperties.swift in Sources */,
@@ -356,6 +428,7 @@
 		};
 		A9B2BD2A27A2CBD5008A5A1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C8CE62EFFDC320F295038D6 /* Pods-Odla.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -364,6 +437,8 @@
 				DEVELOPMENT_TEAM = 55F76CZ7N6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Odla/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to check weather";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow location to see local weather.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -384,6 +459,7 @@
 		};
 		A9B2BD2B27A2CBD5008A5A1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A570BB794F4D8C7CACC27AE /* Pods-Odla.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -392,6 +468,8 @@
 				DEVELOPMENT_TEAM = 55F76CZ7N6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Odla/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to check weather";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow location to see local weather.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
